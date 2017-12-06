@@ -3,16 +3,25 @@
 ## Create the icons
 
 Open sketch file, place your icons. 
+Export all. 
 
-run 
+## Package pngs to ico
+
+You need imagemagick installed. From the command line, navigate to your directory and run 
 
     $ convert 16x16.png 32x32.png 48x48.png 64x64.png 128x128.png favicon.ico
 
-(you can delete the following 16x16.png 32x32.png 48x48.png 64x64.png 128x128.png )
+optionally, compress with optipng (you need optipng installed)
 
-## Copy them into your theme directory 
+    $ optipng *.png
 
-Here: /assets/images/favicon/
+
+## Copy icons to your theme directory 
+
+Here: my-theme-dir/assets/images/favicon/
+
+(you can delete 16x16.png 32x32.png 48x48.png 64x64.png 128x128.png)
+
 
 ## Add hook
 
