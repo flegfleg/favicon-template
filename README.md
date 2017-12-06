@@ -3,14 +3,18 @@
 ## Create the icons
 
 run 
+
     $ convert 16x16.png 32x32.png 48x48.png 64x64.png 128x128.png favicon.ico
 
 (you can delete the following 16x16.png 32x32.png 48x48.png 64x64.png 128x128.png )
 
 ## Copy them into your theme directory 
 
+Here: /assets/images/favicon/
 
 ## Add hook
+
+Add hook to your themes functions file
 
     /**
     Add common favicons 
