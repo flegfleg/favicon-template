@@ -19,7 +19,7 @@ Here: /assets/images/favicon/
 Add hook to your themes functions file
 
     /**
-    Add common favicons 
+    * Add common favicons 
     */
     function fleg_do_favicon() { ?>
     <link rel="shortcut icon" href="<?php echo bloginfo('stylesheet_directory') ?>/assets/images/favicon/favicon.ico" >
